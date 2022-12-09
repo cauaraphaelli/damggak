@@ -2,11 +2,10 @@
   "name": "node",
   "version": "1.0.0",
   "description": "Site de Jogos",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run server.js"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1"
+    },
   "author": "",
   "license": "ISC",
   "dependencies": {
