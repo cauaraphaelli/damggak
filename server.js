@@ -4,10 +4,10 @@
     const bodyParser = require('body-parser');
     const app = express();
     var path = require('path');
-    var http=require('http');
-    var https=require('https');
+    const { request } = require('http');
     const User = require('./models/Users');
     const port = 3000;
+
     
 // Configurações
     // sessão
@@ -154,5 +154,3 @@ app.listen(port,()=>{
     console.log('ligado')
 })
 
-http.createServer(app).listen(80)
-https.createServer(options, app).listen(433)
