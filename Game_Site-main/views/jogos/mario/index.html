@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images-mario/icon.png">
+    <link rel="stylesheet" href="./css-mario/style.css" >
+    <title>DAMGGAK - Mario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="game-board">
+            <h1 id="score">
+                score : 0
+            </h1>
+            <audio id="audio" controls style="display:none">
+            <source src="./sounds-mario/overworld.mp3" type="audio/mp3" >
+            </audio>
+            <audio id="audiojump" controls style="display:none">
+            <source src="./sounds-mario/jumpsfx_1.mp3" type="audio/mp3">
+            </audio>
+            <img src="./images-mario/clouds.png" class="clouds">
+            <img src="./images-mario/pipe.png" class="pipe">
+            <img src="./images-mario/mario.gif" class="mario">
+    </div>
+    
+    <script src="./js-mario/script.js"></script>
+</body>
+</html>
