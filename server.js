@@ -4,10 +4,11 @@
     const bodyParser = require('body-parser');
     const app = express();
     var path = require('path');
-    const { request } = require('http');
+    var http=require('http');
+    var https=require('https');
     const User = require('./models/Users');
     const port = 3000;
-
+    
 // Configurações
     // sessão
         app.use(session({
@@ -22,6 +23,7 @@
     
     // Body Parser
         const { json } = require("body-parser");       
+const { Http2ServerRequest } = require('http2');
         //const { resolveSoa } = require('dns');
         app.use(bodyParser.urlencoded({extended: true}));
 
@@ -151,3 +153,6 @@ app.post('/logout',redirectLogin, (req, res) =>{
 app.listen(port,()=>{
     console.log('ligado')
 })
+
+http.createServer(app).listen(80)
+https.createServer(options, app).listen(433)
