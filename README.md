@@ -1,10 +1,10 @@
 # <span style="font-size:30px;">Plataforma de Jogos</span>
 Bem-vindo ao repositório da nossa plataforma de jogos baseada em navegador! Neste projeto integrador (PI), desenvolvemos uma plataforma onde os usuários podem criar suas contas e desfrutar de diversos jogos autorais. Utilizamos uma variedade de tecnologias, incluindo JavaScript, CSS, SCSS, EJS, TypeScript e HTML. Este repositório contém todo o código-fonte, recursos e documentação relacionados à nossa plataforma de jogos.
 
-*Visão Geral*
+# <span style="font-size:30px;">Visão Geral</span>
 Nossa plataforma de jogos foi criada como parte de um projeto integrador realizado na faculdade. Nosso objetivo era oferecer aos usuários uma experiência divertida e envolvente, onde eles pudessem acessar uma variedade de jogos autorais sem a necessidade de instalação adicional. Além disso, permitimos que os usuários criem suas contas para acompanhar seu progresso e interagir com outros jogadores.
 
-*Tecnologias Utilizadas*
+# <span style="font-size:30px;">Tecnologias Utilizadas</span>
 JavaScript: utilizamos JavaScript como a principal linguagem de programação para desenvolver a lógica do jogo e a interatividade.
 CSS e SCSS: usamos CSS e SCSS para estilizar a aparência dos jogos e garantir uma experiência visual agradável.
 EJS: utilizamos EJS como nosso mecanismo de visualização para gerar as páginas HTML dinamicamente.
